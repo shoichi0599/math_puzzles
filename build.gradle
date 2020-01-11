@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group = 'math_puzzles'
+sourceCompatibility = '1.8'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
+
+test {
+    useJUnitPlatform()
+}
