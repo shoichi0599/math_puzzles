@@ -1,5 +1,18 @@
 # math_puzzles
 This repo is to write source codes in Java to solve questions introduced in the book below.<br>
+
+# Directory Structure
+```text
+src/
+ └ main/
+     └ java/
+        └ questions/
+            ├ Q01.java  # Each code of each question
+            ├ Q02.java
+            ├ ...
+            └ Q70.java
+```
+
 [プログラマ脳を鍛える数学パズル シンプルで高速なコードが書けるようになる70問](https://www.shoeisha.co.jp/book/detail/9784798142456)
 
 第1章　入門編★プログラムを作って問題を解いてみよう<br>
