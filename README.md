@@ -1,6 +1,9 @@
 # math_puzzles
 This repo is to write source codes in Java to solve questions introduced in the book below.<br>
 
+[プログラマ脳を鍛える数学パズル シンプルで高速なコードが書けるようになる70問](https://www.shoeisha.co.jp/book/detail/9784798142456)
+![book](https://www.seshop.com/static/images/product/18365/L.png)
+
 # Directory Structure
 ```text
 src/
@@ -13,8 +16,7 @@ src/
             └ Q70.java
 ```
 
-[プログラマ脳を鍛える数学パズル シンプルで高速なコードが書けるようになる70問](https://www.shoeisha.co.jp/book/detail/9784798142456)
-
+# Questions
 第1章　入門編★プログラムを作って問題を解いてみよう<br>
 　2進数と10進数<br>
 　Q01　10進数で回文<br>
