@@ -2,6 +2,7 @@
 This repo is to write source codes in Java to solve questions introduced in the book below.<br>
 
 [プログラマ脳を鍛える数学パズル シンプルで高速なコードが書けるようになる70問](https://www.shoeisha.co.jp/book/detail/9784798142456)
+
 ![book](https://www.seshop.com/static/images/product/18365/L.png)
 
 # Directory Structure
