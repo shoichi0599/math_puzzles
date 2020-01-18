@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Deque;
 import java.util.List;
+import utils.Strings;
 
 public class Q02ArithmeticOperations {
     /**
@@ -52,7 +53,7 @@ public class Q02ArithmeticOperations {
                         String formula = s.charAt(0) + op + s.charAt(1) + op1 + s.charAt(2) + op2 + s.charAt(3);
                         if (formula.length() > 4) {
                             int result = evalRPN(convertToRPN(formula));
-                            if (s.equals(reverse(Integer.toString(result)))) {
+                            if (s.equals(Strings.reverse(Integer.toString(result)))) {
                                 System.out.println(String.format("%s = %s", i, formula));
                             }
                         }
@@ -113,9 +114,5 @@ public class Q02ArithmeticOperations {
             }
         }
         return stack.pop();
-    }
-
-    private static String reverse(String s) {
-        return new StringBuffer(s).reverse().toString();
     }
 }

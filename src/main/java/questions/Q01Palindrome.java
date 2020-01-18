@@ -1,5 +1,7 @@
 package questions;
 
+import utils.Strings;
+
 public class Q01Palindrome {
 
     /**
@@ -26,9 +28,9 @@ public class Q01Palindrome {
             String os = Integer.toOctalString(num);
             System.out.println(String.format("10進数: %s, 2進数: %s, 8進数: %s", s, bs, os));
             System.out.println();
-            if (s.equals(reverse(s))
-                    && bs.equals(reverse(bs))
-                    && os.equals(reverse(os))
+            if (s.equals(Strings.reverse(s))
+                    && bs.equals(Strings.reverse(bs))
+                    && os.equals(Strings.reverse(os))
             ) {
                 System.out.println("-----------------------------------------------------------------");
                 System.out.println("Result: " + num);
@@ -37,8 +39,5 @@ public class Q01Palindrome {
             }
             num += 2;
         }
-    }
-    private static String reverse(String s) {
-        return new StringBuffer(s).reverse().toString();
     }
 }
